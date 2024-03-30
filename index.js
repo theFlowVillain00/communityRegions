@@ -44,15 +44,7 @@ function handleLegge() {
 }
 
 // Example usage
-fireEvent('event1', 1);
-fireEvent('event2', 2);
-fireEvent('event3', 3);
-
-
-
-
-
-
+fireEvent(handleGuerra, 1);
 
 
 app.get('/', (req, res) => {
@@ -61,6 +53,12 @@ app.get('/', (req, res) => {
 
 const port = 3000;
 app.listen(port, () => {
-    console.log(`Server Time Is ${convertToHMS(currentTime)}`);
+    console.log(`Server sulla porta ${port}`);
 });
 
+
+// `
+
+/*
+
+*/
