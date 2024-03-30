@@ -47,13 +47,7 @@ function handleLegge() {
 fireEvent('event1', 1);
 fireEvent('event2', 2);
 fireEvent('event3', 3);
-
-
-
-
-
-
-
+fireEvent('event4', 4 );
 
 app.get('/', (req, res) => {
     res.send('Hello, world!');
